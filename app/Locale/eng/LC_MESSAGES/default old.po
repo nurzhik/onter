@@ -1,0 +1,23 @@
+msgid "Главная"
+msgstr "Home
+
+msgid "О нас"
+msgstr "About us"
+
+msgid "Мероприятия"
+msgstr "Events"
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""

@@ -1,0 +1,4 @@
+AddDefaultCharset utf8
+<files *>
+deny from all
+</files>

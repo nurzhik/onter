@@ -1,0 +1,27 @@
+<svg width="173" height="112" viewBox="0 0 173 112" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="0.289551" width="172.421" height="112" rx="5" fill="#F2F3F8"/>
+<path d="M3.23682 10.3158H169.763V104.053C169.763 106.814 167.525 109.053 164.763 109.053H8.23682C5.4754 109.053 3.23682 106.814 3.23682 104.053V10.3158Z" fill="white"/>
+<circle cx="9.86849" cy="5.15791" r="2.21053" fill="#2B89F8"/>
+<circle cx="15.7633" cy="5.15791" r="2.21053" fill="#2B89F8"/>
+<circle cx="21.658" cy="5.15791" r="2.21053" fill="#2B89F8"/>
+<circle cx="22.3948" cy="33.8947" r="14.7368" fill="#F2F3F8"/>
+<rect x="48.9211" y="19.1578" width="47.1579" height="4.42105" rx="2.21053" fill="#8E92AA"/>
+<rect x="48.9211" y="88.421" width="47.1579" height="4.42105" rx="2.21053" fill="#8E92AA"/>
+<rect x="48.9211" y="97.2632" width="28" height="4.42105" rx="2.21053" fill="#8E92AA"/>
+<rect x="65.1316" y="33.8948" width="47.1579" height="2.94737" rx="1.47368" fill="#F2F3F8"/>
+<rect x="65.1316" y="39.7894" width="22.1053" height="2.94737" rx="1.47368" fill="#F2F3F8"/>
+<rect x="48.9211" y="33.8948" width="8.8421" height="8.8421" rx="1" fill="#2B89F8"/>
+<rect x="65.1316" y="51.579" width="47.1579" height="2.94737" rx="1.47368" fill="#F2F3F8"/>
+<rect x="65.1316" y="57.4736" width="22.1053" height="2.94737" rx="1.47368" fill="#F2F3F8"/>
+<rect x="48.9211" y="51.579" width="8.8421" height="8.8421" rx="1" fill="#2B89F8"/>
+<rect x="65.1316" y="69.2632" width="47.1579" height="2.94737" rx="1.47368" fill="#F2F3F8"/>
+<rect x="65.1316" y="75.1578" width="22.1053" height="2.94737" rx="1.47368" fill="#F2F3F8"/>
+<rect x="48.9211" y="69.2632" width="8.8421" height="8.8421" rx="1" fill="#2B89F8"/>
+<rect x="110.816" y="88.421" width="42.7368" height="8.8421" rx="1" fill="#2B89F8"/>
+<circle cx="125.687" cy="92.9761" r="1.60766" fill="white"/>
+<circle cx="129.974" cy="92.9761" r="1.60766" fill="white"/>
+<circle cx="134.261" cy="92.9761" r="1.60766" fill="white"/>
+<path d="M129.974 37.579L133.375 41.2632L138.816 33.8948" stroke="#78C2A4" stroke-width="1.5"/>
+<path d="M129.974 52.3158L133.375 56L138.816 48.6316" stroke="#78C2A4" stroke-width="1.5"/>
+<path d="M129.974 67.0526L133.375 70.7368L138.816 63.3684" stroke="#78C2A4" stroke-width="1.5"/>
+</svg>

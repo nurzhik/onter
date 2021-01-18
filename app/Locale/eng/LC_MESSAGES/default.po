@@ -1,0 +1,436 @@
+msgid "Республиканское Общественное Объединение "Казахское общество аритмологов""
+msgstr "Public Association "Kazakh society of arrhythmologists""
+
+msgid "Республиканского Общественного Объеденения "Казахстанского общества аритмологов""
+msgstr "Public Association "Kazakh society of arrhythmologists""
+
+msgid "г.Нур-Султан, Ул.Туран 38"
+msgstr "Nur-Sultan, 38 Turan ave"
+
+msgid "Личный кабинет"
+msgstr "Personal account"
+
+msgid "Поиск"
+msgstr "Search"
+
+msgid "Главная"
+msgstr "Home"
+
+msgid "О нас"
+msgstr "About us"
+
+msgid "Мероприятия"
+msgstr "Events"
+
+msgid "Рекомендации"
+msgstr "Guidelines"
+
+msgid "Добро пожаловать на официальный сайт"
+msgstr "Welcome to official website"
+
+msgid "Галерея"
+msgstr "Gallery"
+
+msgid "Новости"
+msgstr "News"
+
+msgid "Контакты"
+msgstr "Contacts"
+
+msgid "Подробнее"
+msgstr "Learn more"
+
+msgid "Президиум"
+msgstr "KSA Board"
+
+msgid "История"
+msgstr "History"
+
+msgid "Членство"
+msgstr "Membership"
+
+msgid "Цель. Миссия. Этика"
+msgstr "Goal. Mission. Ethics"
+
+msgid "Партнеры"
+msgstr "Partners"
+
+msgid "Страница 1 из 2"
+msgstr "Page 1 from 2"
+
+msgid "Все"
+msgstr "All"
+
+msgid "Фотографии"
+msgstr "Photos"
+
+msgid "Видео"
+msgstr "Videos"
+
+msgid "Доклады"
+msgstr "Presentations"
+
+msgid "Адрес"
+msgstr "Address"
+
+msgid "Телефон"
+msgstr "Telephone"
+
+msgid "Электронная почта"
+msgstr "E-mail"
+
+msgid "Электронная почта работы"
+msgstr "Work E-mail"
+
+msgid "2020. Все права защищены. Общество аритмологов"
+msgstr "2020. All rights reserved. Kazakh Society of Arrythmologists"
+
+msgid "Разработка сайтов Astana Creative"
+msgstr "Website creation Astanacreative"
+
+msgid "Все новости"
+msgstr "All news"
+
+msgid "Члены правления"
+msgstr "Board members"
+
+msgid "Директоры филиалов"
+msgstr "Branch directors"
+
+msgid "Почетные члены Общества"
+msgstr "Society honorary members"
+
+msgid "Спонсоры"
+msgstr "Sponsors"
+
+msgid "Форма подачи тезиса"
+msgstr "Abstract submission"
+
+msgid "Вид доклада"
+msgstr "Type of abstract"
+
+msgid "Устный доклад"
+msgstr "Oral presentation"
+
+msgid "Постерный доклад"
+msgstr "Poster presentation"
+
+msgid "ФИО"
+msgstr "Full name"
+
+msgid "Дата рождения"
+msgstr "Date of birth"
+
+msgid "Язык тезиса"
+msgstr "Abstract language"
+
+msgid "Прикрепить файл"
+msgstr "Attach file"
+
+msgid "Отправить"
+msgstr "Submit"
+
+msgid "Скачать программу"
+msgstr "Download program"
+
+msgid "Скачать"
+msgstr "Download"
+
+msgid "Подать тезис"
+msgstr "Abstract submission"
+
+msgid "Мы приносим свои извинения. Для просмотра данных Вам необходимо стать членом "Казахского общества аритмологов"."
+msgstr "We apologize. You need to be a member of "Kazakh Society of Arrythmologists" to get further information"
+
+msgid "Общая информация"
+msgstr "General info"
+
+msgid "Фамилия"
+msgstr "Family name"
+
+msgid "Имя"
+msgstr "First name"
+
+msgid "Отчество"
+msgstr "Patronymic"
+
+msgid "Пароль"
+msgstr "Password"
+
+msgid "Введите пароль"
+msgstr "Enter password"
+
+msgid "Повторите пароль"
+msgstr "Confirm password"
+
+msgid "Прикрепить фото"
+msgstr "Attach photo"
+
+msgid "Пол"
+msgstr "Gender"
+
+msgid "Муж"
+msgstr "Male"
+
+msgid "Жен"
+msgstr "Female"
+
+msgid "Деятельность"
+msgstr "Activity"
+
+msgid "Студент"
+msgstr "Student"
+
+msgid "Резидент"
+msgstr "Resident"
+
+msgid "Практикующий врач"
+msgstr "Healthcare professional"
+
+msgid "Специалист здравоохранения"
+msgstr "Healthcare specialist"
+
+msgid "Другое"
+msgstr "Other"
+
+msgid "Специализация"
+msgstr "Specialization"
+
+msgid "Ученая степень"
+msgstr "Academic degree"
+
+msgid "к.м.н./PhD"
+msgstr "PhD"
+
+msgid "д.м.н."
+msgstr "DMsc"
+
+msgid "Введите ваш логин"
+msgstr "Enter login"
+
+msgid "MD"
+msgstr "MD"
+
+msgid "нет"
+msgstr "No"
+
+msgid "Нет"
+msgstr "None"
+
+msgid "Ученое звание"
+msgstr "Academik rank"
+
+msgid "ассистент"
+msgstr "Assistant"
+
+msgid "Войти"
+msgstr "Enter"
+
+msgid "ассоциированный профессор"
+msgstr "Associate professor"
+
+msgid "профессор"
+msgstr "Professor"
+
+msgid "член-корреспондент"
+msgstr "Corresponding member"
+
+msgid "академик"
+msgstr "Academician"
+
+
+msgid "Контактные данные"
+msgstr "Contacts"
+
+msgid "Страна"
+msgstr "Country"
+
+msgid "Город"
+msgstr "City"
+
+msgid "Почтовый индекс"
+msgstr "Post index"
+
+msgid "Вебсайт"
+msgstr "Website"
+
+msgid "Инстаграм"
+msgstr "Instagram"
+
+msgid "Твиттер"
+msgstr "Twitter"
+
+msgid "Место работы"
+msgstr "Work adress"
+
+msgid "Страна организации"
+msgstr "Institution country"
+
+msgid "Город организации"
+msgstr "Institution city"
+
+msgid "Адрес организации"
+msgstr "Institution adress"
+
+msgid "Почтовый индекс работы"
+msgstr "Institution post index"
+
+msgid "Телефон работы"
+msgstr "Work telephone"
+
+msgid "Факс"
+msgstr "Fax"
+
+msgid "Вебсайт работы"
+msgstr "Work website"
+
+msgid "Должность в организации"
+msgstr "Position"
+
+msgid "Профессиональные данные (для врачей)"
+msgstr "Professional data (physicians only)"
+
+msgid "Какое количество процедур/вмешательств Вы проводите ежегодно"
+msgstr "The amount of procedures/interventions you perform"
+
+msgid "Имплантация ЭКС"
+msgstr "Pacemaker implantation"
+
+msgid "Имплантация СРТД"
+msgstr "CRTD implantation"
+
+msgid "Имплантация ИКД"
+msgstr "ICD implantation"
+
+msgid "Имплантация петлевых кардиомониторов"
+msgstr "Loop recorder implantation"
+
+msgid "Имплантация безэлектродного ЭКС"
+msgstr "Leadless pacemaker implantation"
+
+msgid "РЧА наджелудочковых аритмий"
+msgstr "Supraventricular arrythmia RFA"
+
+msgid "РЧА желудочковых аритмий"
+msgstr "Ventricular arrythmia RFA"
+
+msgid "Криобаллонная изоляция устьев легочных вен"
+msgstr "Pulmonary veins cryo isolation"
+
+msgid "РЧА изоляция устьев легочных вен"
+msgstr "Pulmonary veins RFA isolation"
+
+msgid "Экстракция эндокардиальных электродов"
+msgstr "Lead extraction"
+
+msgid "Закрытие ушка левого предсердия"
+msgstr "Left atrial appendage occlusion"
+
+msgid "Забыли пароль?"
+msgstr "Forgot password?"
+
+msgid "Регистрация"
+msgstr "Registration"
+
+msgid "Зарегистрироваться"
+msgstr "To register"
+
+msgid "Запрос на сброс пароля"
+msgstr "Password reset request"
+
+
+msgid "Центр Судебных Экспертиз"
+msgstr "Center for Forensic Expertise"
+
+msgid "Центр судебных экспертиз"
+msgstr "Center for forensic expertise"
+
+msgid "Блог Руководителя"
+msgstr "Executive blog"
+
+msgid "Версия для слабовидящих"
+msgstr "Visually version"
+
+msgid "Размер шрифта"
+msgstr ""
+
+msgid "Изображения"
+msgstr "Images"
+
+msgid "Обычная версия сайта"
+msgstr "Default vesion of website"
+
+msgid "История Центра"
+msgstr "History of the Center"
+
+msgid "Устав"
+msgstr "Charter"
+
+msgid "Структура"
+msgstr "Structure"
+
+msgid "Деятельность"
+msgstr "Activity"
+
+msgid "Виды проводимых экспертиз"
+msgstr "Types of Expertise"
+
+msgid "План работы"
+msgstr "Work Plan"
+
+msgid "База НПА"
+msgstr "Base of Regulatory Acts"
+
+msgid "Проекты НПА"
+msgstr "Drafts of Regulatory Acts"
+
+msgid "Полезные ссылки"
+msgstr "Featured links"
+
+msgid "Аккредитация институтов"
+msgstr "Accreditation of Institutes"
+
+msgid "График приема граждан"
+msgstr "Visiting hours"
+
+msgid "Часто задаваемые вопросы"
+msgstr "Frequently Asked Questions"
+
+msgid "Международное сотрудничество"
+msgstr "International Cooperation"
+
+msgid "Проект Всемирного Банка"
+msgstr "World Bank Project"
+
+msgid "Территориальные подразделения"
+msgstr ""
+
+msgid "Научная деятельность"
+msgstr "Scientific Activities"
+
+msgid "Аккредитация институтов"
+msgstr "Accreditation of Institutes"
+
+msgid "Аналитика и статистика"
+msgstr "Analytics and Statistics"
+
+msgid "Государственные закупки"
+msgstr "Public Procurement"
+
+msgid "Вакансии"
+msgstr "Vacancies"
+
+msgid "Гражданам"
+msgstr "For Citizens"
+
+msgid "Платные услуги"
+msgstr "Fee-based Services"
+
+msgid "Государственные услуги"
+msgstr "Public Services"
+
+msgid "Разработка сайта"
+msgstr "Created by"
+
+msgid ""
+msgstr ""
