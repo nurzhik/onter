@@ -29,97 +29,8 @@
 				
 			</div>
 			<div class="search_info">
-				<div class="search_info_item">
-					<div class="info_item_row info__head">
-						<div class="info__head_left">
-							<div class="res_item_position">Лор</div>
-							<div class="res_item_name">Петров Алексей Васильевич</div>
-							<div class="res_item_exp">Стаж - 20 лет</div>
-							<div class="res_item_rating">Рейтинг <span>4.9</span></div>
-						</div>
-						<div class="info__head_right">
-							<div class="res_item_img">
-								<img src="img/doctor_1.png" alt="">
-							</div>
-						</div>
-					</div>
-					<div class="info_item_row">
-						<div class="info_row_name">Стоимость консультации: 15 000 тенге</div>
-						<div class="text_item">
-							<p>Чтобы договориться о консультации, напишите врачу в чат</p>
-						</div>
-					</div>
-					<div class="info_item_row">
-						<div class="info_row_name">Специлизация</div>
-						<div class="text_item">
-							<p>Оталаринголог</p>
-						</div>
-						<div class="info_row_name">Образование</div>
-						<div class="text_item">
-							<p>1999 г. - Челябинская государственная медицинская академия, высшее образование по специальности "Лечебное дело",</p>
-							<p>2000 г. - Челябинская государственная медицинская академия, интернатура по специальности "Оториноларингология",</p>
-							<p>2002 г. - Челябинская государственная медицинская академия, ординатура по специальности "Оториноларингология".</p>
-						</div>
-						<div class="info_row_name">Повышение квалификации</div>
-						<div class="text_item">
-							<p>2017 г. - Южно-Уральский государственный медицинский университет МЗ РФ, сертификация по специальности "Оториноларингология".</p>
-						</div>
-						<div class="info_row_name">Профессиональные навыки</div>
-						<div class="text_item">
-							<ul>
-								<li>лечение заболеваний ЛОР органов,</li>
-								<li>отоскопия,</li>
-								<li>риноскопия,</li>
-								<li>фарингоскопия,</li>
-								<li>непрямая ларингоскопия.</li>
-							</ul>
-						</div>
-						<a class="info_btn" href="chat.html">Договориться о времени</a>
-					</div>
-				</div>
-				<div class="search_info_item">
-					<div class="info_item_row info__head">
-						<div class="info__head_left">
-							<div class="res_item_position">Лор</div>
-							<div class="res_item_name">Улина Марина Евгеньевна</div>
-							<div class="res_item_exp">Стаж - 5 лет</div>
-							<div class="res_item_rating">Рейтинг <span>4.9</span></div>
-						</div>
-						<div class="info__head_right">
-							<div class="res_item_img">
-								<img src="img/doctor_2.png" alt="">
-							</div>
-						</div>
-					</div>
-					<div class="info_item_row">
-						<div class="info_row_name">Стоимость консультации: 15 000 тенге</div>
-						<div class="text_item">
-							<p>Чтобы договориться о консультации, напишите врачу в чат</p>
-						</div>
-					</div>
-					<div class="info_item_row">
-						<div class="info_row_name">Специлизация</div>
-						<div class="text_item">
-							<p>Оталаринголог</p>
-						</div>
-						<div class="info_row_name">Образование</div>
-						<div class="text_item">
-							<p>1999 г. - Челябинская государственная медицинская академия, высшее образование по специальности "Лечебное дело",</p>
-						</div>
-						<div class="info_row_name">Повышение квалификации</div>
-						<div class="text_item">
-							<p>2017 г. - Южно-Уральский государственный медицинский университет МЗ РФ, сертификация по специальности "Оториноларингология".</p>
-						</div>
-						<div class="info_row_name">Профессиональные навыки</div>
-						<div class="text_item">
-							<ul>
-								<li>фарингоскопия,</li>
-								<li>непрямая ларингоскопия.</li>
-							</ul>
-						</div>
-						<a class="info_btn" href="chat.html">Договориться о времени</a>
-					</div>
-				</div>
+				
+				
 				<div class="search_info_item">
 					<div class="info_item_row info__head">
 						<div class="info__head_left">
@@ -160,7 +71,10 @@
 								<li>непрямая ларингоскопия.</li>
 							</ul>
 						</div>
-						<a class="info_btn" href="chat.html">Договориться о времени</a>
+						
+							<a class="info_btn" href="<?= ($login['role'] == 'user') ? '/'.$lang.'chat' : '/'.$lang.'users/login'?>">Договориться о времени</a>
+						
+						
 					</div>
 				</div>
 			</div>

@@ -100,7 +100,13 @@ class PagesController extends AppController {
 		$title_for_layout ='Регистраиця';
 		$this->set(compact('title_for_layout' ,'page','infographics','videos','npas','branches','partners','reports','information','plan','vacancy'));
 	}
-
+	public function chat(){
+			
+		
+		
+		$title_for_layout ='Чат';
+		$this->set(compact('title_for_layout' ,'page','infographics','videos','npas','branches','partners','reports','information','plan','vacancy'));
+	}
 	public function contacts(){
 		
 		$title_for_layout = 'Контакты';

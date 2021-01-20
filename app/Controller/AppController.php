@@ -38,6 +38,7 @@ class AppController extends Controller {
 		$admin = (isset($this->request->params['prefix']) && $this->request->params['prefix'] == 'admin') ? 'admin/' : false;
 		if(!$admin) $this->Auth->allow();
 		$login = $this->Auth->user();
+		
 		// $cabinet = (isset($this->request->params['prefix']) && $this->request->params['prefix'] == 'cabinet') ? 'cabinet/' : false;
 		// if(!$cabinet) $this->Auth->allow();
 		//debug($this->Auth->user());die;

@@ -7,6 +7,7 @@
 	Router::connect('/', array('controller' => 'pages', 'action' => 'home'));
 	Router::connect('/contacts', array('controller' => 'pages', 'action' => 'contacts'));
 	Router::connect('/registration_page', array('controller' => 'pages', 'action' => 'registration_page'));
+	Router::connect('/chat', array('controller' => 'pages', 'action' => 'chat'));
 	Router::connect('/:language/users/forgetpwd/*', 
 		array('controller' => 'users', 'action' => 'forgetpwd'),
 		array('language' => '[a-z]{2}')
@@ -47,6 +48,10 @@
 	);
 	Router::connect('/:language', 
 		array('controller' => 'pages', 'action' => 'home'),
+		array('language' => '[a-z]{2}')
+	);
+	Router::connect('/:language/chat', 
+		array('controller' => 'pages', 'action' => 'chat'),
 		array('language' => '[a-z]{2}')
 	);
 	Router::connect('/:language/registration_page', 
