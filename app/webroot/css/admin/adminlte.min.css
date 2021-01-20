@@ -6480,7 +6480,9 @@ a.close.disabled, a.disabled.mailbox-attachment-close {
 .popover-header:empty {
   display: none;
 }
-
+.empty-text {
+  padding: 0.75rem 1.25rem;
+}
 .popover-body {
   padding: 0.5rem 0.75rem;
   color: #212529;

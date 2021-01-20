@@ -2,7 +2,7 @@
 App::uses('CakeEmail', 'Network/Email');
 class UsersController extends AppController{
 
-	public $uses = array('User', 'Basket');
+	public $uses = array('User', 'Specialist');
 
 	public function beforeFilter(){
 		parent::beforeFilter();
@@ -634,7 +634,7 @@ class UsersController extends AppController{
 			$lang = $this->Auth->locale = Configure::read('Config.language');
 			return $this->redirect('/'.$lang.'/users/login');
 		}
-		
+		$specialists = $this->Specialist->find('all');
 		$data = $this->Auth->user();
 		$id = $data['id'];
 		$user_id = $data['id'];
@@ -661,6 +661,14 @@ class UsersController extends AppController{
 			}
 			$data2 = $this->request->data;
 			if($this->User->save($data1) ){
+				$specialists = $this->request->data['specialists'];
+				$this->User->query("DELETE FROM `specialists_users` WHERE `user_id`=$user_id");
+				if(isset($specialists)){
+					for($i=0;$i<=count($specialists)-1;$i++){
+						$specialists_insert = "INSERT INTO `specialists_users` (specialist_id,user_id) VALUES(".$specialists[$i].",".$user_id.") ";
+						$sql = $this->User->query($specialists_insert);
+					}
+				}
 				foreach($data2 as $key => $v){
 					// $name = $data['name'];
 					// $value = $data['value'];
@@ -686,7 +694,7 @@ class UsersController extends AppController{
 		if(!$this->request->data){
 			$this->request->data = $data;
 			$title_for_layout = 'Личный кабинет';
-			$this->set(compact('id', 'data', 'user_id','title_for_layout', 'member_type'));
+			$this->set(compact('id', 'data', 'user_id','title_for_layout', 'member_type','specialists'));
 		}
 
 

@@ -3,7 +3,7 @@ App::uses('CakeEmail', 'Network/Email');
 
 class PagesController extends AppController {
 
-	public $uses = array('Page','Project','Slide','Partner','News','Mainpage','Callback','Branche','Vacancy','Faq','Doc','Team','Infographic','Video','Npa');
+	public $uses = array('Page','News','Symptom');
 	public function admin_welcome(){
 		
 	}
@@ -51,11 +51,13 @@ class PagesController extends AppController {
 	public function home(){
 			
 		$this->News->locale = Configure::read('Config.language');
-		
 		$news = $this->News->find('all');
-		
+		$symptoms = $this->Symptom->find('all', array(
+			'limit' => 6,
+		));
+	
 		$title_for_layout ='Главная';
-		$this->set(compact('title_for_layout' ,'slides','news','smi','projects','branches','partners'));
+		$this->set(compact('title_for_layout' ,'symptoms','news'));
 	}
 	public function about(){
 			

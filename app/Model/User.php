@@ -19,6 +19,12 @@ class User extends AppModel{
 	//             'className'  => 'Ad',
 	//         ),
 	//     );
+	 // public $hasMany = array(
+  //   'UsersField' => array(
+  //       'className' => 'UsersField',
+  //       'foreignKey' => 'user_id',
+  //       )
+  //   );
 	public $validate = array(
 		'img' => array(
 			'uploadError' => array(

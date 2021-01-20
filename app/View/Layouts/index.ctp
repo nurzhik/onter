@@ -25,7 +25,7 @@
         </div> 
     </div>
     <header>
-        <div class="header_top <?= ($this->request->params['action'] == 'login') ? 'main_header' : ''?>">
+        <div class="header_top <?= ($this->request->params['action'] == 'login' || $this->request->params['action'] == 'home') ? 'main_header' : ''?>">
             <div class="container">
                 <div class="logo_block">
                     <a class="logo" href="index.html"></a>

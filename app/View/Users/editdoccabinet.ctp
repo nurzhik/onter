@@ -69,6 +69,17 @@
 											<div class="input_name">Телефон</div>
 											<input class="form_input" type="tel"  placeholder="+7 (___) ___ __ __" value="<?php echo $data['User']['phone']; ?> " name="data[User][phone]">
 										</div>
+										<div class="input_block">
+										<div class="input_name">Специальность</div>
+											<select class="form_select" multiple  name="specialists[]">
+												<?php foreach ($specialists as $item):?>
+													<option value="<?=$item['Specialist']['id']?>">
+														<?=$item['Specialist']['title_'.$l]?>
+													</option>
+												<?php endforeach ?>
+												
+											</select>
+										</div>
 									</div>
 								</div>
 								<div class="form_row_item">

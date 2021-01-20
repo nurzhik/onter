@@ -1,183 +1,170 @@
-<section class="main_section page">
-      <div class="main_slider_block">
-        <div class="main_slider">
-          <?php foreach ($slides as $item): ?>
-            <div>
-              <div class="slide" style="background-image: url('/img/slides/<?=$item['Slide']['img']?>');">
-                <div class="slide_text">
-                  <div class="slide_title"><?=$item['Slide']['title']?></div>
-                  <div class="text_item">
-                    <?= $this->Text->truncate(strip_tags($item['Slide']['body']), 100, array('ellipsis' => '...', 'exact' => true)) ?>
-                  </div>
-                  <a class="more_btn green_btn" href="/<?=$lang?><?=$item['Slide']['link']?>"><?=__('Подробнее')?></a>
-                </div>
-              </div>
-            </div>
+<section class="main_section" style="background-image: url('img/main_bg.jpg');">
+  <div class="container">
+    <div class="main_block">
+      <div class="main_search_block">
+        <div class="main_title">Получите онлайн консультацию не выходя из дома</div>
+        <div class="text_item">
+          <p>Введите Ваши симптомы и мы определим возможное заболевание</p>
+        </div>
+        <form class="search_block" action="" method="">
+          <input class="search_input" type="text" name="" placeholder="Что вас беспокоит?">
+          <button class="search_btn" type="submit"></button>
+        </form>
+      </div>
+
+      <div class="search_request">
+        <div class="text_item">
+          <p>Популярные запросы:</p>
+        </div>
+        <div class="search_request_list">
+          <?php foreach ($symptoms as $item): ?>
+              <a class="search_item" href="/search?symptom=<?=$item['Symptom']['id']?>"><?=$item['Symptom']['title_'.$l]?></a>
           <?php endforeach ?>
           
-        </div>
-        <div class="main_slide_control">
-          <div class="main_arrow"></div>
-        </div>
-      </div>
-      <div class="main_links">
-        <a class="main_link_item" href="/<?=$lang?>ksk_to_axis#osi_info">
-          <div class="main_link_img">
-            <img src="img/main_link_1.png" alt="">
-          </div>
-          <div class="main_link_name"><?=__('Инфографики')?></div>
-        </a>
-        <a class="main_link_item" href="/<?=$lang?>ksk_to_axis#osi_video">
-          <div class="main_link_img">
-            <img src="img/main_link_2.jpg" alt="">
-          </div>
-          <div class="main_link_name"><?=__('Видеоролики')?></div>
-          <div class="text_item">
-            <p><?=__('Cерия полезных видеороликов для собственников жилья и управляющих компаний')?></p>
-          </div>
-        </a>
-        <a class="main_link_item" href="/<?=$lang?>ksk_to_axis#osi_docs">
-          <div class="main_link_img">
-            <img src="img/main_link_3.jpg" alt="">
-          </div>
-          <div class="main_link_name"><?=__('НПА')?></div>
-          <div class="text_item">
-            <p><?=__('База нормативно-правовых актов')?></p>
-          </div>
-        </a>
-        <a class="main_link_item" href="/<?=$lang?>ksk_to_axis#osi_map">
-          <div class="main_link_img">
-            <img src="img/main_link_4.png" alt="">
-          </div>
-          <div class="main_link_name"><?=__('Карта ОСИ')?></div>
-          <div class="text_item">
-            <p><?=__('Ознакомьтесь с картой распространения ОСИ')?></p>
-          </div>
-        </a>
-      </div>
-    </section>
-
-    <section class="light_blue">
-      <div class="container">
-        <div class="title"><?=__('Карта ОСИ')?></div>
-
-         <?=$this->element('maps') ?>
-      </div>
-    </section>
-
-    <section>
-      <div class="container">
-        <div class="title_btn">
-          <div class="title"><?=__('Новости')?></div>
-          <a class="more_btn green_btn" href="/<?=$lang?>news"><?=__('Все новости')?></a>
-        </div>
-        <div class="news main_news">
-          <?php foreach ($news as $item):?>
-            <div class="news_item">
-              <div class="news_type"><?=__('Новости')?></div>
-              <a class="news_img" href="/<?=$lang?>news/view/<?=$item['News']['id']?>">
-                <img src="/img/news/<?=$item['News']['img']?>" alt="">
-              </a>
-              <div class="news_text">
-                <div class="news_date"><?php echo $this->Time->format($item['News']['date'], '%d.%m.%Y', 'invalid'); ?> 
-
-              <!-- <?=$this->Common->beauty_date($item['News']['date']);?> -->
-                
-              </div>
-                <a class="news_name" href="/<?=$lang?>news/view/<?=$item['News']['id']?>"><?php echo $item['News']['title']; ?></a>
-                <div class="text_item">
-                  <?= $this->Text->truncate(strip_tags($item['News']['body']), 100, array('ellipsis' => '...', 'exact' => true)) ?>
-                </div>
-                <a class="news_more" href="/<?=$lang?>news/view/<?=$item['News']['id']?>"><?=__('Читать новость целиком')?></a>
-              </div>
-            </div>
-          <?php endforeach ?>
-          <?php foreach ($smi as $item):?>
-            <div class="news_item">
-              <div class="news_type"><?=__('Сми о нас')?></div>
-              <a class="news_img" href="/<?=$lang?>news/view/<?=$item['News']['id']?>">
-                <img src="/img/news/<?=$item['News']['img']?>" alt="">
-              </a>
-              <div class="news_text">
-                <div class="news_date"><?php echo $this->Time->format($item['News']['date'], '%d.%m.%Y', 'invalid'); ?> 
-
-              <!-- <?=$this->Common->beauty_date($item['News']['date']);?> -->
-                
-              </div>
-                <a class="news_name" href="/<?=$lang?>news/view/<?=$item['News']['id']?>"><?php echo $item['News']['title']; ?></a>
-                <div class="text_item">
-                  <?= $this->Text->truncate(strip_tags($item['News']['body']), 100, array('ellipsis' => '...', 'exact' => true)) ?>
-                </div>
-                <a class="news_more" href="/<?=$lang?>news/view/<?=$item['News']['id']?>"><?=__('Читать новость целиком')?></a>
-              </div>
-            </div>
-          <?php endforeach ?>
           
         </div>
       </div>
-    </section>
+    </div>
+  </div>
+</section>
 
-    <section class="light_blue">
-      <div class="container">
-        <div class="title"> <?=__('Проекты')?></div>
-        <div class="project_slider">
-          <?php foreach ($projects as $item):?>
-            <div>
-              <a class="project_slide" href="/<?=$lang?>projects">
-                <img src="/img/projects/<?=$item['Project']['img']?>" alt="">
-              </a>
-            </div>
-          <?php endforeach ?>
-         
+<section class="gray">
+  <div class="container">
+    <div class="title">Простой и удобный процесс</div>
+    <div class="title_text">Мы постарались сделать процесс получения консультации удобным для Вас</div>
+    <div class="process_list">
+      <div class="process_item way">
+        <div class="process_img">
+          <img src="img/proc_1.svg" alt="">
         </div>
+        <div class="process_name">Опишите проблему</div>
+        <div class="process_text">Расскажите что вас беспокоит, опишите свои симптомы</div>
       </div>
-    </section>
+      <div class="process_line way"></div>
+      <div class="process_item way">
+        <div class="process_img">
+          <img src="img/proc_2.svg" alt="">
+        </div>
+        <div class="process_name">Найдите нужного врача</div>
+        <div class="process_text">Выберите нужного врача на основании наших рекомендаций</div>
+      </div>
+      <div class="process_line way"></div>
+      <div class="process_item way">
+        <div class="process_img">
+          <img src="img/proc_3.svg" alt="">
+        </div>
+        <div class="process_name">Получите онлайн консультацию</div>
+        <div class="process_text">Получите консультацию врача, который поможет вам справиться с недугом</div>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <section>
-      <div class="container">
-        <div class="title"> <?=__('О компании')?></div>
-        <div class="about">
-          <div class="about_text">
-            <div class="about_title"><?=$params['about_title']?></div>
-            <div class="text_item">
-              <?=$params['about_text']?>
-            </div>
-            <a class="more_btn green_btn" href="/<?=$lang?>about">Подробнее</a>
+<section>
+  <div class="container">
+    <div class="title">Выберите тему</div>
+
+    <div class="theme_slider">
+      <div>
+        <a class="theme_item" href="javascript:;">
+          <div class="theme_img">
+            <img src="img/theme_1.svg" alt="">
           </div>
-          <div class="about_img">
-            <img class="about_main_img" src="/img/settings/<?=$params['img']?>" alt="">
-            
+          <div class="theme_name">Боль в горле</div>
+        </a>
+      </div>
+      <div>
+        <a class="theme_item" href="javascript:;">
+          <div class="theme_img">
+            <img src="img/theme_2.svg" alt="">
           </div>
-        </div>
+          <div class="theme_name">Кашель</div>
+        </a>
       </div>
-    </section>
+      <div>
+        <a class="theme_item" href="javascript:;">
+          <div class="theme_img">
+            <img src="img/theme_3.svg" alt="">
+          </div>
+          <div class="theme_name">Коронавирус</div>
+        </a>
+      </div>
+      <div>
+        <a class="theme_item" href="javascript:;">
+          <div class="theme_img">
+            <img src="img/theme_4.svg" alt="">
+          </div>
+          <div class="theme_name">Головная боль</div>
+        </a>
+      </div>
+      <div>
+        <a class="theme_item" href="javascript:;">
+          <div class="theme_img">
+            <img src="img/theme_5.svg" alt="">
+          </div>
+          <div class="theme_name">Температура</div>
+        </a>
+      </div>
+      <div>
+        <a class="theme_item" href="javascript:;">
+          <div class="theme_img">
+            <img src="img/theme_6.svg" alt="">
+          </div>
+          <div class="theme_name">Аллергия</div>
+        </a>
+      </div>
+      <div>
+        <a class="theme_item" href="javascript:;">
+          <div class="theme_img">
+            <img src="img/theme_3.svg" alt="">
+          </div>
+          <div class="theme_name">Коронавирус</div>
+        </a>
+      </div>
+      <div>
+        <a class="theme_item" href="javascript:;">
+          <div class="theme_img">
+            <img src="img/theme_4.svg" alt="">
+          </div>
+          <div class="theme_name">Головная боль</div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <section class="light_blue">
-      <div class="container">
-        <div class="title"> <?=__('Дочерние организации')?></div>
-        <div class="filial_list">
-          <?php foreach ($branches as $item):?>
-            <a class="filial_list_item" href="/<?=$lang?>branches">
-              <img src="/img/branches/<?=$item['Branche']['img']?>" alt="">
-            </a>
-          <?php endforeach ?>
-          
-         
-        </div>
+<section class="gray">
+  <div class="container">
+    <div class="title">Поделиться в социальных сетях</div>
+    <div class="page_share">
+      <div class="share_list">
+        <a class="share_link telegram_share" href="javascript:;" rel="nofollow noopener" target="_blank" title="Telegram">
+          <div class="share_img">
+            <img src="img/telegram.svg" alt="">
+          </div>
+          <div class="share_text">Telegram</div>
+        </a>
+        <a class="share_link wp_share" href="javascript:;" rel="nofollow noopener" target="_blank" title="WhatsApp">
+          <div class="share_img">
+            <img src="img/whatsapp.svg" alt="">
+          </div>
+          <div class="share_text">WhatsApp</div>
+        </a>
+        <a class="share_link vk_share" href="javascript:;" rel="nofollow noopener" target="_blank" title="ВКонтакте">
+          <div class="share_img">
+            <img src="img/vk.svg" alt="">
+          </div>
+          <div class="share_text">VKontakte</div>
+        </a>
+        <a class="share_link facebook_share" href="javascript:;" rel="nofollow noopener" target="_blank" title="Facebook">
+          <div class="share_img">
+            <img src="img/facebook_white.svg" alt="">
+          </div>
+          <div class="share_text">Facebook</div>
+        </a>
       </div>
-    </section>
-
-    <section>
-      <div class="container">
-        <div class="title"> <?=__('Полезные ссылки')?></div>
-        <div class="link_slider">
-          <?php foreach ($partners as $item):?>
-            <div>
-              <a class="project_slide" href="<?=$item['Partner']['link']?>" target="_blank">
-                <img src="/img/partners/<?=$item['Partner']['img']?>" alt="">
-              </a>
-            </div>
-          <?php endforeach ?>
-        </div>
-      </div>
-    </section>
+      <script src="https://yastatic.net/share2/share.js"></script>
+      <div class="ya-share2" data-curtain data-services="vkontakte,facebook,telegram,whatsapp"></div>
+    </div>
+  </div>
+</section>
